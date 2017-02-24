@@ -10,6 +10,7 @@ Matrixserver is a simple CLI application (designed to be a master), able to send
  - the threads call the slave HTTP API (one or many potentially) able to manage multiple instances of request and wait for the result
  - every single elaboration is aggregated (in the matrix result) at the moment of the arrive
  - partial results are displayed until the last thread finished the elaboration (or forced to quit after a defined number of seconds)
+ - the file final-matrix.edn will contain the elaboration
  
 ## Technical Requirements
 

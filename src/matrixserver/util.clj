@@ -26,7 +26,7 @@
     (let [http-content {:body           (json/encode fparams)
                         :headers        {"X-Api-Version" "2"}
                         :content-type   :json
-                        :socket-timeout 15000  ;15 secs of timeout out  
+                        :socket-timeout 15000  ;15 secs of timeout out
                         :conn-timeout   15000
                         :accept         :json}
           data (cl/post url http-content)]
